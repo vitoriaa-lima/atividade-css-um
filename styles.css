@@ -1,0 +1,46 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffcbdb;
+    color: aqua;
+} 
+
+.cabecalho {
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.titulo_principal {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff007f;
+}
+
+.subtitulo{
+    color: #d5276a;
+}
+
+.conteudo {
+    background-color: #d35b89;
+    color: #ffcbdb;
+
+    h1 {
+        color: #E4005A;
+        font-size: 42px;
+    }
+}
+
+.paragrafo {
+    color: purple;
+}
+
+@media (max-width: 480px) {
+    .container{
+        background-color: #ADD8E6;
+    }
+}
+
+/* @media aplica estilos APENAS quando uma determinada condição for VERDADEIRA */
